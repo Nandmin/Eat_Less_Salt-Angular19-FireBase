@@ -4,8 +4,14 @@
     font-family: 'Special Elite', sans-serif;
 }
 
+.container {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
 .intro h1 {
     padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 /* img {
@@ -18,6 +24,7 @@
     /* width: 30%; */
     height: auto; 
     border-radius: 10px;
+    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
 }
 
 .centerContent {
@@ -36,8 +43,8 @@ li {
     list-style: none; 
     /* display: flex; */
     /* justify-content: space-between;  */
-    padding-top: 25px; 
-    padding-bottom: 25px;
+    padding-top: 45px; 
+    padding-bottom: 45px;
     border-top: 1px solid darkgray;
     border-bottom: 1px solid darkgrey;
 }
@@ -49,6 +56,7 @@ li {
 
 .textBox h1 {
     font-size: 30px;
+    padding-top: 25px;
 }
 
 .text-content {
@@ -58,9 +66,27 @@ li {
 
 }
 
-.card-title {
-    font-size: 20px;
-    font-weight: bold;
+.card {
+    box-shadow: 20px 20px 17px 0px rgba(0,0,0,0.75);
 }
 
+
+.card-title {
+    /* font-size: 20px; */
+    font-weight: bold;
+    font-size: var(--font-size-5);
+}
+
+
+.card > *:not(:first-child) {
+    margin-block-start: var(--size-5);
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
