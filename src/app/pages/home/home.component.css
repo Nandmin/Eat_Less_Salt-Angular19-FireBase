@@ -1,7 +1,9 @@
 
 * {
-    
+    color: whitesmoke;
     font-family: 'Special Elite', sans-serif;
+    /* background-image: url('https://images.pexels.com/photos/813269/pexels-photo-813269.jpeg'); */
+    
 }
 
 .container {
@@ -10,8 +12,8 @@
 }
 
 .intro h1 {
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding-top: 70px;
+    padding-bottom: 55px;
 }
 
 /* img {
@@ -35,6 +37,7 @@
 .imageContainer {
     display: flex; 
     justify-content: center; 
+    padding-bottom: 20px;
     /* padding-top: 50px; */
 }
 
@@ -43,8 +46,8 @@ li {
     list-style: none; 
     /* display: flex; */
     /* justify-content: space-between;  */
-    padding-top: 45px; 
-    padding-bottom: 45px;
+    padding-top: 65px; 
+    padding-bottom: 65px;
     border-top: 1px solid darkgray;
     border-bottom: 1px solid darkgrey;
 }
@@ -60,21 +63,35 @@ li {
 }
 
 .text-content {
-    width: 600px;
+    width: fit-content;
     font-size: 16px;
     text-align: justify;
+    padding-top: 20px;
+}
 
+.text-center {
+    text-align: center;
 }
 
 .card {
     box-shadow: 20px 20px 17px 0px rgba(0,0,0,0.75);
+    background-color:  hsl(212.2, 84%, 15%);
 }
 
 
 .card-title {
-    /* font-size: 20px; */
+    font-size: 20px;
     font-weight: bold;
-    font-size: var(--font-size-5);
+    /* font-size: var(--font-size-5); */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* color: black; */
+}
+
+.card-body {
+    /* background-color: hsl(0, 0%, 90%); */
+    /* background-color:  hsl(212.2, 84%, 15%); */
+    
 }
 
 
@@ -88,5 +105,24 @@ li {
     line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    /* color: black; */
 }
+
+/* .btn a {
+    box-shadow: 20px 20px 17px 0px rgba(0,0,0,0.75);
+    width: fit-content;
+    margin-left: 20%;
+    
+} */
+
+.btn, btn-primary {
+    width: fit-content;
+    color: whitesmoke;
+    justify-content: center;
+    /* margin-left: 25%; */
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+
 

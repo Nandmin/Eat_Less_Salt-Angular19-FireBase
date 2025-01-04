@@ -1,6 +1,8 @@
 .footer {
     /* background-color: #333; */
-    background-color: #291485;
+    /* background-color: #291485; */
+    /* background-color: hsl(222.2 84% 4.9%); */
+    background-color: rgb(17 24 39 );
     color: white;
     text-align: center;
     padding: 10px;
