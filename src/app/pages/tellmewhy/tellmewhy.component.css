@@ -1,0 +1,33 @@
+*
+{
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.container {
+    padding-bottom: 25px;
+}
+
+.picture img {
+    margin-top: 50px;
+    border-radius: 15px;
+    /* box-shadow: 18px 15px 12px 4px rgba(0,0,0,0.75); */
+}
+
+article, span {
+    text-align: justify;
+    padding-top: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    opacity: 1;
+}
+
+source {
+    padding-top:30px;
+
+}
