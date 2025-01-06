@@ -12,6 +12,48 @@
     margin: 0;
     width: 100%;
     /* z-index: 1000; */
-    border-radius: 18px 18px 0 0;
+    /* border-radius: 18px 18px 0 0; */
+    border-top: 1px solid rgba(55, 65, 81, .5);
 }
 
+
+.row {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: justify; */
+    padding: 20px;
+}
+
+.row, .footerContent {
+    padding-top: 30px;
+    border-bottom: 1px solid rgba(55, 65, 81, .5);
+}
+
+.notify {
+    font-size: 10px;
+    padding-top:  35px;
+    line-height: 1.7;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(55, 65, 81, .5);
+}
+
+.facebook a {
+    color: #1877F2;
+    text-decoration: none;
+  }
+
+  .email a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #145DBF;
+  }
