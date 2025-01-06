@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/eat-less-salt-angular19-fire-base",
+    "public": "dist/eat-less-salt-angular19-firebase",
     "ignore": [
       "firebase.json",
       "**/.*",
